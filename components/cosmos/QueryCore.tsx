@@ -78,7 +78,7 @@ export default function QueryCore() {
 
       coreRef.current.scale.multiplyScalar(0.992);
 
-      coreRef.current.material.opacity *= 0.985;
+      //(coreRef.current.material.opacity as THREE.MeshStandardMaterial).opacity *= 0.985;
 
       // Pull back to center
       coreRef.current.position.x *= 0.96;
@@ -141,7 +141,7 @@ export default function QueryCore() {
               : 2)+ confidence * 0.08
         }
 
-        opacity={1}
+        //opacity={1}
 
         roughness={0.15}
 
