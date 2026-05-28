@@ -199,9 +199,9 @@ useReasoningStore
    - 这里confidence是游戏中表现的正反馈。虽然可以等同进度条，但还是希望增加等待游戏的趣味性，而且与项目表达的认知可视化相矛盾。最终confidence和实际不相关，不过也设置了规则在0-100%。
 
 4. 在未来计划中，为什么只将 AI Runtime 映射到 Phase，而不直接映射到 Confidence？
-   - 1：LLM 并不存在真正可靠的 “Confidence”
-   - 2：真实 AI reasoning 并不是线性稳定过程
-   - 3：真实 telemetry 波动会破坏体验一致性
+   - LLM 并不存在真正可靠的 “Confidence”
+   - 真实 AI reasoning 并不是线性稳定过程
+   - 真实 telemetry 波动会破坏体验一致性
 
 
 
@@ -266,44 +266,6 @@ pnpm dev
 ```text
 http://localhost:3000
 ```
-
----
-
-# Future Roadmap（未来路线）
-
-## Real LLM Telemetry Integration
-
-当前版本的 phases：
-
-仍然属于：
-
-# scripted cognition phases
-
-未来版本将接入：
-
-- real-time token streaming
-- runtime uncertainty analysis
-- tool call telemetry
-- reasoning conflict estimation
-- telemetry-driven phase transition
-
-实现：
-
-# 真正的 AI Runtime Cognition Visualization
-
----
-
-# 计划中的功能
-
-- OpenAI / Claude Streaming Integration
-- Runtime Telemetry Interpreter
-- Dynamic Procedural Universe
-- AI Response Synchronization
-- Spatial Audio System
-- Emotional Reasoning Ambience
-- Shared Multiplayer Cognition Space
-
----
 
 ---
 
